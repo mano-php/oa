@@ -3,7 +3,7 @@
     "alias": "OA登录",
     "description": "OA登录",
     "type": "library",
-    "version": "1.0.0",
+    "version": "v1.0.1",
     "keywords": ["extension"],
     "homepage": "https://github.com/mano-php/oa",
     "license": "MIT",
