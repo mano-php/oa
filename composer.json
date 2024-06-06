@@ -1,0 +1,33 @@
+{
+    "name": "mano-code/oa",
+    "alias": "OA登录",
+    "description": "OA登录",
+    "type": "library",
+    "version": "1.0.0",
+    "keywords": ["extension"],
+    "homepage": "https://github.com/mano-php/oa",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mano",
+            "email": "Mano@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "slowlyo/owl-admin": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ManoCode\\Oa\\": "src/"
+        }
+    },
+    "extra": {
+        "owl-admin": "ManoCode\\Oa\\OaServiceProvider",
+        "laravel": {
+            "providers": [
+                "ManoCode\\Oa\\OaServiceProvider"
+            ]
+        }
+    }
+}
